@@ -14,5 +14,3 @@ angular.module('ladybug', [
   $locationProvider.html5Mode(true);
 }]);
 
-
-alert('hi');
