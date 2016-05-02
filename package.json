@@ -1,0 +1,17 @@
+{
+  "name": "ladybug",
+  "version": "1.0.0",
+  "description": "Ladybug Montesorri Learning Center",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-router": "0.0.1",
+    "path": "^0.12.7"
+  }
+}
