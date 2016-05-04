@@ -1,4 +1,6 @@
-angular.module('Ladybug', [ 'ngRoute' ])
+angular.module('Ladybug', [ 
+  'ngRoute'
+ ])
 .config(['$routeProvider', function($routeProvider){
 
     $routeProvider
@@ -20,3 +22,5 @@ angular.module('Ladybug', [ 'ngRoute' ])
     //     controller: 'homeController'
     //   });
      // $locationProvider.html5Mode(true);
+
+$("#carousel").carousel();

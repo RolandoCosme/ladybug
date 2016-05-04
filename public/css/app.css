@@ -1,0 +1,13 @@
+body{
+  background-color: #FEFFA3;
+}
+
+#fullnav{
+  background-color: #D4FFEA;
+  color: #E20F06;
+}
+
+.jumbotron, h1{
+  background-color: #D4D8DB;
+  color: #E20F06;
+}
