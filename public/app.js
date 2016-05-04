@@ -1,16 +1,26 @@
-angular.module('ladybug', [
-  'ui.router'
-])
-.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider){
-    $urlRouterProvider.otherwise('/home');
+angular.module('Ladybug', [ 
+  'ngRoute'
+ ])
+.config(['$routeProvider', function($routeProvider){
 
-    $stateProvider
-      .state('home', {
-        url: '/home',
-        templateUrl: 'partials/partial-home.html',
-        controller: 'homeController'
+    $routeProvider
+      .when('/home', {
+        templateUrl: '/partials/partial-home.html'
+      })
+      .when('/gallery',{
+          templateUrl: '/partials/partial-gallery.html'
+      })
+      .otherwise({
+        redirectTo: '/'
       });
+  }]);
 
-  $locationProvider.html5Mode(true);
-}]);
+    // $routeProvider
+    //   .when('/home', {
+    //     url: '/home',
+    //     templateUrl: '/partials/partial-home.html',
+    //     controller: 'homeController'
+    //   });
+     // $locationProvider.html5Mode(true);
 
+$("#carousel").carousel();
