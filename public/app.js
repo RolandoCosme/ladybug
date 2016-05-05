@@ -8,7 +8,8 @@ angular.module('Ladybug', [
         templateUrl: '/partials/partial-home.html'
       })
       .when('/gallery',{
-          templateUrl: '/partials/partial-gallery.html'
+          templateUrl: '/partials/partial-gallery.html',
+          controller: 'galleryController'
       })
       .otherwise({
         redirectTo: '/'
