@@ -12,7 +12,7 @@ angular.module('Ladybug', [
           // controller: 'galleryController'
       })
       .when('/gallery2',{
-          templateUrl: '/partials/test-partial-gallery.html',
+          templateUrl: '/partials/partial-grid.html',
           controller: 'galleryController'
       })
       .otherwise({
