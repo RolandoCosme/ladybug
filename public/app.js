@@ -13,19 +13,9 @@ angular.module('Ladybug', [
       })
       .when('/gallery2',{
           templateUrl: '/partials/partial-grid.html',
-          controller: 'galleryController'
+          controller: 'gridController'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/home'
       });
   }]);
-
-    // $routeProvider
-    //   .when('/home', {
-    //     url: '/home',
-    //     templateUrl: '/partials/partial-home.html',
-    //     controller: 'homeController'
-    //   });
-     // $locationProvider.html5Mode(true);
-
-$("#carousel").carousel();
