@@ -11,3 +11,7 @@ body{
   background-color: #D4D8DB;
   color: #E20F06;
 }
+
+.w3-card-12 {
+  width: 50%;
+}
