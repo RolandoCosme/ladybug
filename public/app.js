@@ -11,10 +11,10 @@ angular.module('Ladybug', [
           templateUrl: '/partials/partial-gallery.html',
           // controller: 'galleryController'
       })
-      .when('/gallery2',{
-          templateUrl: '/partials/partial-grid.html',
-          controller: 'gridController'
-      })
+      // .when('/gallery2',{
+      //     templateUrl: '/partials/partial-grid.html',
+      //     controller: 'gridController'
+      // })
       .otherwise({
         redirectTo: '/home'
       });
