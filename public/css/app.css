@@ -12,6 +12,7 @@ body{
   color: #E20F06;
 }
 
-.w3-card-12 {
-  width: 50%;
+#topic-card {
+  background-color: #2196F3;
+  color: white;
 }
