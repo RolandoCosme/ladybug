@@ -11,10 +11,27 @@ angular.module('Ladybug', [
           templateUrl: '/partials/partial-gallery.html',
           // controller: 'galleryController'
       })
-      // .when('/gallery2',{
-      //     templateUrl: '/partials/partial-grid.html',
-      //     controller: 'gridController'
-      // })
+      .when('/practical-life',{
+          templateUrl: '/partials/partial-practical.html',
+      })
+      .when('/sensorial',{
+          templateUrl: '/partials/partial-sensorial.html',
+      })
+      .when('/mathematics',{
+          templateUrl: '/partials/partial-mathematics.html',
+      })
+      .when('/language',{
+          templateUrl: '/partials/partial-language.html',
+      })
+      .when('/science',{
+          templateUrl: '/partials/partial-science.html',
+      })
+      .when('/geography',{
+          templateUrl: '/partials/partial-geography.html',
+      })
+      .when('/art',{
+          templateUrl: '/partials/partial-art.html',
+      })
       .otherwise({
         redirectTo: '/home'
       });
