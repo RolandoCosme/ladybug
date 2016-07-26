@@ -32,6 +32,9 @@ angular.module('Ladybug', [
       .when('/art',{
           templateUrl: '/partials/partial-art.html',
       })
+      .when('/form',{
+          templateUrl: '/partials/partial-form.php',
+      })
       .otherwise({
         redirectTo: '/home'
       });
