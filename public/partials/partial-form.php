@@ -1,6 +1,6 @@
 <?php
 if (empty($_POST) === false) {
-  echo "submited";
+  echo "<pre>", print_r($_POST, true), "</pre>";
 }
 ?>
 
@@ -23,3 +23,5 @@ if (empty($_POST) === false) {
   </p>
 
 </form>
+
+<!-- check npm mailgun and sendgrid -->
