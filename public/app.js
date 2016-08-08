@@ -35,6 +35,9 @@ angular.module('Ladybug', [
       .when('/form',{
           templateUrl: '/partials/partial-form.php',
       })
+      .when('/send',{
+          templateUrl: '/partials/partial-send.php',
+      })
       .otherwise({
         redirectTo: '/home'
       });
