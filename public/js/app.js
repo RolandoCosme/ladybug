@@ -33,7 +33,7 @@ angular.module('Ladybug', [
           templateUrl: '/partials/partial-art.html',
       })
       .when('/form',{
-          templateUrl: '/partials/partial-form.php',
+          templateUrl: '/partials/partial-form.html',
           controller: 'mailController.js'
       })
       .when('/contact',{
