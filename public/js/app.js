@@ -32,9 +32,9 @@ angular.module('Ladybug', [
       .when('/art',{
           templateUrl: '/partials/partial-art.html',
       })
-      .when('/form',{
-          templateUrl: '/partials/partial-form.html',
-          controller: 'mailController.js'
+      .when('/enrollment',{
+          templateUrl: '/partials/partial-enrollment.html',
+          controller: '/js/controllers/submitController.js'
       })
       .when('/contact',{
           templateUrl: '/partials/partial-contact.html',
