@@ -1,0 +1,10 @@
+<form ng-submit="submit()" name="jForm" id="jForm" onsubmit="event.returnValue = false; return false;">
+    <input type="text" class="form-control" placeholder="try to hit the enter key in here" />
+    <div class="btn btn-default" id="tap">
+      Tap me
+    </div>
+
+    <div ui-submit="" class="btn btn-primary">Submit form</div>
+  </form>
+  <ui-submitform class="btn btn-primary" formsubmitfunction="submit()">Submit form 2</ui-submitform>
+  <button onclick="$('#jForm').submit()">jquery Submit</button>
