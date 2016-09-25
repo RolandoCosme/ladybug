@@ -1,15 +1,17 @@
-app.directive('uiSubmitform', function()
-{
-    // need this to make sure that you can submit your form by simply pressing the enter key in one of the input fields
-    return {
-     restrict: 'E',
-     link: function(scope, element, attrs)
-     {
-        element.onTrigger(function()
-        {
-          //scope.$apply(attrs.formsubmitfunction); 
-            scope.$eval(attrs.formsubmitfunction);
-        });
-     }
- };
-});
+// var myApp = angular.module('myApp',[]);
+
+// function MyCtrl($scope) {
+//     $scope.myForm = {};
+    
+//     $scope.processForm = function(){
+//         alert("Submitting form..");
+//     }
+// }
+
+angular.module('Ladybug', [])
+    .controller('submitController', ['$scope', function processForm($scope) {
+        $scope.myForm = {};
+        $scope.processForm = function(){
+            alert("Submitting form..");
+        };
+    }]);
