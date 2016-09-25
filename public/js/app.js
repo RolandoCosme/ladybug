@@ -34,7 +34,7 @@ angular.module('Ladybug', [
       })
       .when('/enrollment',{
           templateUrl: '/partials/partial-enrollment.html',
-          controller: '/js/controllers/submitController.js'
+          controller: 'submitController.js'
       })
       .when('/contact',{
           templateUrl: '/partials/partial-contact.html',
