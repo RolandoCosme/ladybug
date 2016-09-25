@@ -1,4 +1,4 @@
-app.directive('ladybug', function()
+app.directive('uiSubmitform', function()
 {
     // need this to make sure that you can submit your form by simply pressing the enter key in one of the input fields
     return {
