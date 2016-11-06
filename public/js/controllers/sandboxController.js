@@ -27,12 +27,11 @@ var Mailgun = require('mailgun').Mailgun;
 
 var mg = new Mailgun('pubkey-8a9acd5eddb7f5ef3a86df80da84f785');
 
-
-var sendMsg = mg.sendText('Ladybug@Ladybug.com', ['Recipient 1 <rolando.cosme@gmail.com>', 'rcosmedeveloper@gmail.com'],
-      'This is the subject - mailgun',
-      'This is the text - mailgun',
-      'noreply@example.com', {},
-      function(err) {
-        if (err) console.log('Oh noes: ' + err);
-        else     console.log('Success');
-    });;
+mg.sendText('Ladybug@Ladybug.com', ['Recipient 1 <rolando.cosme@gmail.com>', 'rcosmedeveloper@gmail.com'],
+  'This is the subject - mailgun',
+  'This is the text - mailgun',
+  'noreply@example.com', {},
+  function(err) {
+    if (err) console.log('Oh noes: ' + err);
+    else     console.log('Success');
+});
