@@ -67,6 +67,14 @@ h3,h4 {
   margin-bottom: 60px;
 }
 
+#topic-card{
+}
+
+#topic-card img{
+  width: 40px;
+  height: 55px;
+}
+
 #card-title {
   background-color: #2196F3;
   color: white;
@@ -76,6 +84,7 @@ h3,h4 {
 }
 
 #topic-body {
+  color: #848484;
 }
 
 #topic-title {
