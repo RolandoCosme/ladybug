@@ -68,11 +68,25 @@ h3,h4 {
 }
 
 #topic-card{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  border-style: none;
+  border-bottom: 1px solid #d5d5d5;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(255,0,0,0), rgba(33,150,243,1)); /* Standard syntax */
 }
 
 #topic-card img{
   width: 40px;
   height: 55px;
+}
+
+#topic-body {
+  color: #848484;
+  padding: 1%;
 }
 
 #card-title {
@@ -81,10 +95,6 @@ h3,h4 {
   border-style: none;
   border-top: 1px solid #d5d5d5;
   font-family: 'Quicksand', sans-serif;
-}
-
-#topic-body {
-  color: #848484;
 }
 
 #topic-title {
