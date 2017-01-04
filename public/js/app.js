@@ -5,38 +5,38 @@ angular.module('Ladybug', [
 
     $routeProvider
       .when('/home', {
-        templateUrl: './public/partials/partial-home.html'
+        templateUrl: '/public/partials/partial-home.html'
       })
       .when('/gallery',{
-          templateUrl: './public/partials/partial-gallery.html',
+          templateUrl: '/public/partials/partial-gallery.html',
       })
       .when('/practical-life',{
-          templateUrl: './public/partials/partial-practical.html',
+          templateUrl: '/public/partials/partial-practical.html',
       })
       .when('/sensorial',{
           templateUrl: '/partials/partial-sensorial.html',
       })
       .when('/mathematics',{
-          templateUrl: './public/partials/partial-mathematics.html',
+          templateUrl: '/public/partials/partial-mathematics.html',
       })
       .when('/language',{
-          templateUrl: './public/partials/partial-language.html',
+          templateUrl: '/public/partials/partial-language.html',
       })
       .when('/science',{
-          templateUrl: './public/partials/partial-science.html',
+          templateUrl: '/public/partials/partial-science.html',
       })
       .when('/geography',{
-          templateUrl: './public/partials/partial-geography.html',
+          templateUrl: '/public/partials/partial-geography.html',
       })
       .when('/art',{
-          templateUrl: './public/partials/partial-art.html',
+          templateUrl: '/public/partials/partial-art.html',
       })
       .when('/enrollment',{
-          templateUrl: './public/partials/partial-enrollment.html',
+          templateUrl: '/public/partials/partial-enrollment.html',
           controller: 'submitController.js'
       })
       .when('/contact',{
-          templateUrl: './public/partials/partial-contact.html',
+          templateUrl: '/public/partials/partial-contact.html',
           // controller: 'mailController.js'
       })
       .otherwise({
